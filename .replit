@@ -1,0 +1,3 @@
+language="java"
+
+run="date +'%c' && echo -n 'Compiling... ' && javac pl/edu/agh/dronka/shop/controller/*.java pl/edu/agh/dronka/shop/main/*.java pl/edu/agh/dronka/shop/model/filter/*.java pl/edu/agh/dronka/shop/model/provider/*.java pl/edu/agh/dronka/shop/model/util/*.java pl/edu/agh/dronka/shop/model/*.java pl/edu/agh/dronka/shop/view/*.java && echo 'DONE' && date +'%c' && echo -n 'Working... ' && java pl.edu.agh.dronka.shop.main.Main && echo 'DONE'"
